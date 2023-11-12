@@ -49,6 +49,14 @@ body{
 	left: 445px;
 }
 
+.p3 {
+	top:450px;
+	left:350px;
+}
+.p4 {
+	top:400px;
+	left:100px;
+}
 .about li {
 	position: fixed;
 	width: 500px;
@@ -62,10 +70,11 @@ body{
 }
 
 #link1_about:target,
-#link2_about:target{
-	display: block;
+#link2_about:target,
+#link3_about:target,
+#link4_about:target{
+    display: block;
 }
-
 .about p {
     padding: 80px;
 	font-size: 22px;
